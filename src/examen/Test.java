@@ -20,8 +20,8 @@ public class Test {
         CambiaLongitud p=new CambiaLongitud();
         NoCambiaLongitud p1=new NoCambiaLongitud();
         p.setVa(10);
-        p1.mo(v, 0, 1, p);
-        p.bo(v, 0, 1);
+        p1.modificar(v, 0, 1, p);
+        p.borrar(v, 0, 1);
         p.in(v, 0, 1);
     }
 }
